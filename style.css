@@ -1,0 +1,330 @@
+﻿html{
+    background-color: #ffffff;
+}
+
+.take{
+    position: relative;
+}
+.boxes{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    width: 66vw;
+    background-position: relative;
+    margin-left: 16%;
+}
+.pink{
+    background-color: #f5989d;
+    background-position: relative;
+    width:33%;
+}
+.purple{
+    background-color: #615f7d;
+    background-position: relative;
+    width:33%;
+}
+.ocean-camera{
+    background: url(../img/smaller-blue-picture.jpg) no-repeat;
+    width:33%;
+    height: 278px;
+    background-position: relative;
+}
+.ocean-camera h3{
+    color:#ffffff;
+    padding-top: 52px;
+    padding-left:46px;
+}
+.extended{
+    background: url(../img/orange-picture.jpg) no-repeat;
+    width: 66%;
+    height: 278px;
+    background-position: relative;
+}
+.green{
+    background-color: #82ca9c;
+    width: 33%;
+    background-position: relative;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:16%;
+    margin-right:16%;
+}
+.details div{
+    width:14vw;
+}
+.more-power{
+    background: url(../img/steering-wheel.jpg) no-repeat;
+    width: 100vw;
+    height: 120vh;
+}
+.reasons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:16%;
+    margin-right:16%;
+}
+.reasons div{
+    width:14vw;
+}
+.iPhone{
+    width:20vw;
+    justify-content: flex-end;
+}
+footer{
+    background: #192431;
+    margin-bottom: 0;
+    padding-bottom:0;
+    display: flex;
+}
+footer div{
+    flex-wrap:wrap;
+    flex-direction: row;
+    
+    width:67.6vw;
+}
+footer div h2, footer div p, footer div{
+    font-family:'Open Sans', sans-serif;
+    color: #ffffff;
+}
+.get-in-touch h2{
+    padding-left:9.5vw;
+    font-size:11pt;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.get-in-touch p{
+    width: 31vw;
+    padding-left:14.5vw;
+    font-size:10pt;
+    line-height:20pt;
+}
+.get-in-touch{
+    width:31.4vw;
+}
+.stay-in-touch{
+    width:25.9vw;
+    padding-left: 14.5vw;
+}
+.stay-in-touch h2{
+    margin-left:7vw;
+    font-size:11pt;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+.stay-in-touch p{
+    font-size:6pt;
+    margin-left:7vw;
+    color:#57697f;
+    width:17.7vw;
+    line-height:10pt;
+    margin-top:10px;
+}
+.email{
+    display:flex;
+}
+.email p{
+    background: #ffffff;
+    color:#ffffff;
+    height: 40px;
+    width: 19.7vw;
+    margin-top:0;
+}
+.email div{
+    background: #82ca9c;
+    height:40px;
+    width: 40px;
+    content: '\f00c';
+}
+@media(max-width: 779px){
+    .boxes{
+        flex-direction: column;
+        margin-left:5%;
+    }
+    .boxes div{
+        width:400px;
+        height: 278px;
+    }
+    .extended {
+        width:100%;
+    }
+    .details{
+        flex-direction: column;
+    }
+    .details div{
+        width: 66vw;
+        text-align: center;
+        margin: 10px;
+    }
+    .reasons{
+        flex-direction: column;
+    }
+    .reasons div{
+        width: 66vw;
+        text-align: center;
+        margin: 10px;
+    }
+    .more-power p:first-of-type{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 8pt;
+        line-height: 15pt;
+        width:30vw;
+        padding-left: 19.5%;
+        
+    }
+    .more-power p:last-of-type{
+        padding-left: 19.5%;
+        margin-top:2%;
+    }
+    .more-power h2{
+        padding-top: 49vh;
+        font-size: 35pt;
+        line-height: 42pt;
+        font-weight: lighter;
+        width: 41vw;
+        padding-left:5%;
+        margin-bottom: 20px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .get-in-touch p, .get-in-touch h2{
+        width:62.8vw;
+    }
+    .stay-in-touch p, .stay-in-touch h2{
+        width: 62.8vw;
+    }
+    .email{
+        width: 40vw;
+    }
+    .check{
+        content: '\f00c';
+    } 
+    
+}
+
+@media(max-width: 400px){
+    .over-text{
+        background: url(../img/header-background.jpg) no-repeat;
+        background-size:100%;
+        background-attachment: relative;
+
+    }
+    .take{
+        display: flex;
+        flex-direction: column;
+        width:100vw;
+    }
+    .take p, .take h1{
+        margin: 0px;
+        padding:0;
+    }
+    .iPhone img{
+        height:30vw;
+        margin-left:60vw;
+    }
+   
+    body{ 
+        width:400px;
+    }
+    .start-col-one p, .start-col-two p{
+        padding:36px;
+    }
+    .boxes{
+        margin-left: 0;
+    }
+    .more-power p:first-of-type{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 6pt;
+        line-height: 10pt;
+        width:30vw;
+        padding-left: 15.5%;
+        
+    }
+    .more-power p:last-of-type{
+        padding-left: 15.5%;
+        margin-top:2%;
+    }
+    .more-power h2{
+        padding-top: 39vh;
+        font-size: 25pt;
+        line-height: 32pt;
+        font-weight: lighter;
+        width: 41vw;
+        padding-left:2%;
+        margin-bottom: 20px;
+    }
+    
+}
+@media(max-width: 1820px){
+   .over-text{
+       
+        background: url(../img/header-background.jpg) no-repeat;
+        background-size:100%;
+        background-attachment: relative;
+    }
+    .take{
+        display: flex;   
+        width: 100vw;
+        min-width: 401px;
+        max-height: 50%;
+        flex-direction: column;
+    }
+    .iPhone img{
+        height:40vw;
+        margin-left:60vw;
+        
+    }
+    body{
+        width:100%;
+    }
+    .start-col-one p, .start-col-two p{
+        padding:36px;
+    }
+}
+@media(min-width: 1820px){
+    .over-text{
+        
+        background: url(../img/header-background.jpg) no-repeat;
+        background-size:1000px;
+        background-attachment: relative;
+    }
+    .take{
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .take h1, .take p{
+        margin-left: 316px;
+    }
+    .iPhone img{
+        height:50vw;
+        margin-left:60vw;
+    }
+    body{
+        display:flex;
+        flex-direction: column;
+        width: 1820px;
+        padding: 15%;
+        padding-top:0;
+    }
+}
+@media(min-width:590px){
+    .start-something-new{
+        display:flex;
+        flex-direction: column;
+    }
+    .start-something-too{
+        display:flex;
+         flex-direction: row;
+    }
+    
+    .start-col-one p, .start-col-two p{
+        padding:36px;
+    }
+    
+}
+

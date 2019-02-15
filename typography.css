@@ -1,0 +1,151 @@
+h1, .take p, .heading-text p{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-stretch: ultra-condensed;
+ }
+.start-something-new h2, .boxes h2, .details h3, .reasons h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #222626;
+    font-stretch:ultra-condensed;
+}
+.start-something-new p, .boxes p, .details p {
+    font-family: 'Open Sans', sans-serif;
+    color: #b1b1b1;
+    font-stretch:ultra-condensed;
+}
+ h1{
+     font-size: 50px;
+     letter-spacing: 4;
+     margin-left: 15%;
+     margin-top: 15%;
+     font-weight: 10;
+     font-variant-caps: small-caps;
+     font-stretch:ultra-condensed;
+ }
+ h2{
+     font-size: 30pt;
+     font-stretch:ultra-condensed;
+ }
+ body h2{
+     font-family: 'Open Sans', sans-serif;
+     font-size:26pt;
+     margin-left: 16%;
+     margin-top: 98px;
+     margin-bottom: 66px;
+     font-stretch:ultra-condensed;
+ }
+ h3{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 30pt;
+     font-stretch:ultra-condensed;
+ }
+ .take p a{
+     font-family: 'Young-Serif', serif;
+     font-size: 25pt;
+     font-style: italic;
+     font-weight:bolder;
+     font-stretch: ultra-expanded;
+     
+ }
+ .take p{
+     font-family: 'Open Sans', sans-serif;
+     width: 380px;
+     margin-left: 15%;
+     line-height: 24px;
+     margin-top: 24px;
+     font-size:10pt;
+ }
+ p a{
+     font-size: 16pt;
+     font-weight: bold;
+     text-decoration: none;
+     color: #ffffff;
+     
+ }
+ p a:after{
+    content: '\2192';
+ }
+.boxes h3, .boxes p{
+    color:#ffffff;
+}
+.boxes p a{
+    font-family: 'Young-Serif', serif;
+}
+.boxes div h3{
+    color:#ffffff;
+    padding-top: 52px;
+    padding-left:46px;
+    font-weight: lighter;
+}
+.boxes div p:first-of-type{
+    margin-top:11%;
+    width: 66%;
+    margin-left:12%;
+}
+.boxes div p:last-of-type{
+    margin-top: 12%;
+}
+.boxes div p a{
+    margin-left: 12%;
+    font-size: 12pt;
+}
+@media(min-width: 779px){
+    @media(max-width: 1184px){
+        .boxes div h3{
+            font-size:24pt;
+        }
+    }
+}
+.details div h3{
+    font-size:11pt;
+    margin-bottom: 20px;
+}
+.reasons div h3{
+    font-size:11pt;
+    margin-bottom: 20px;
+}
+.details div p{
+    font-size:9pt;
+    line-height:15pt;
+}
+.reasons div p{
+    font-family: 'Open-Sans', sans-serif;
+    color: #b1b1b1;
+    font-size:9pt;
+    line-height:15pt;
+}
+.itallic{
+    font-style: italic;
+}
+.more-power h2, .more-power p{
+    color: #ffffff;
+}
+.more-power p:first-of-type{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    line-height: 20pt;
+    width:30vw;
+    padding-left: 22.5%;
+    
+}
+.more-power p:last-of-type{
+    padding-left: 22.5%;
+    margin-top:2%;
+}
+.more-power h2{
+    padding-top: 59vh;
+    font-size: 45pt;
+    line-height: 52pt;
+    font-weight: lighter;
+    width: 41vw;
+    padding-left:7%;
+    margin-bottom: 20px;
+}
+.take p a:first-of-type:after{
+    content: none;
+}
+.take p a:first-of-type:before{
+    /* content: '\f192'; */
+    margin-right: 5%;
+    content: '\f192';
+}
